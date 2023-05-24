@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+  /* General Styles ================================================================================ */
+    html {
+      font-family: 'Outfit', sans-serif;
+      background-color: #D3D3D3;
+      font-size: 15px;
+    } 
+
+    body {
+      text-align: center;
+    }
+
+    main {
+      background-color: #D6E2F0;
+      display: flex;
+      justify-content: center;
+    }
+
+    .content-wrapper {
+      background-color: white;
+      border-radius: 5%; 
+      margin: 80px 40px;
+      padding: 15px 15px 0px 15px;
+      width: 300px;
+      height: 500px;
+    }
+
+    h1 {
+      color: #1F3251;
+      font-weight: 700;
+      font-size: 1.5rem;
+    }
+
+    p {
+      color: gray;
+      font-weight: 400;
+      font-size: 1rem;
+      margin: 0px;
+    }
+
+    img {
+      border-radius: 5%;
+      margin: 10px 0px;
+      width: 100%; 
+    }
+
+    a {
+      text-decoration: none;
+      background-color: transparent;
+      color: inherit;
+    }
+
+    footer {
+      padding: 30px;
+    }
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  
+  /* Mobile Styles  =============================================================================== */  
+  @media only screen and (min-width: 0px) {
+
+    .content-wrapper {
+      max-width: 300px;
+    }
+  }
+  
+  /* Desktop Styles  =============================================================================== */
+  @media only screen and (min-width: 1200px) {
+
+    main {
+      margin: 50px;
+    }
+
+    .content-wrapper {
+      margin: 50px;
+    }
+  }
+  
+  </style>
+</head>
+
+<body>
+  
+  <main>
+    <div class="content-wrapper">
+      <img src="images/image-qr-code.png" alt="QR Code";>
+      <h1>
+        Improve your front-end<br> skills by building projects
+      </h1>
+      <p>
+        Scan the QR code to visit Frontend <br>Mentor and take your coding skills to <br>the next level
+      </p>
+    </div>
+  </main>
+  
+  <footer>
+    <div class="attribution">
+      <p>
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/Lorna-V">Lorna-V</a>.
+      </p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
